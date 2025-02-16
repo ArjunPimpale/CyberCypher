@@ -326,7 +326,7 @@
     
             // Send data to the server
             try {
-                const response = await fetch('/addData', {
+                const response = await fetch('http://localhost:3000/generate', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
