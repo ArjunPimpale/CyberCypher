@@ -38,32 +38,8 @@ npm install
 After installing the dependencies, start the development server using the following command:
 
 ```bash
-npm start
+cd backend
+node index.js
 ```
 
-This will start a local server, typically on `http://localhost:3000`. Open this URL in your browser to view and interact with **charcoal.ai**.
-
-### 5. Environment Variables (if needed):
-If the project requires API keys or specific configuration settings, ensure that you have added the necessary environment variables. You can usually do this by creating a `.env` file in the project root with the required values.
-
-### 6. Testing:
-After setting everything up, visit `http://localhost:3000` in your web browser to test the website. Make sure all functionalities (e.g., AI interactions, UI elements) are working as expected.
-
-## Running the Frontend:
-
-If the frontend uses React, you can follow the instructions below:
-
-1. Go to the project directory where the React code is located (if applicable).
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the React development server:
-
-   ```bash
-   npm start
-   ```
-
-4. The app should now be available on `http://localhost:3000` (or whichever port React is using).
+So, by this, the connection with the Database will be made, and then, you should head on to the website-run the **landingPage**
