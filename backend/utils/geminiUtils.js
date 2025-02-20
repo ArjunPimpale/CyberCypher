@@ -96,4 +96,5 @@ async function callGeminiApi(req) {
   }
 }
 
+
 module.exports = { callGeminiApi };
